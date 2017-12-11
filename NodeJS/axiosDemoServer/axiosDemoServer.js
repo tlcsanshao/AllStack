@@ -46,6 +46,4 @@ app.delete("/user",function(req,res){
 	res.send(req.body);
 });
 
-
-
 app.listen(8088,"localhost");
